@@ -8,3 +8,9 @@ games=("Valorant" "Siege" "Minecraft" "FIFA")
 
 # Accessing a specific element: Use curly braces ${}
 echo "I enjoy playing ${games[0]}" # Output: Valorant
+
+# You can add elements using the += operator.
+games+=("CS2")
+
+# You can update an index directly
+games[1]="R6 Siege"
