@@ -21,3 +21,8 @@ echo $name
 # - Float: A number with a decimal point, such as 3.14 or -0.5.
 # - Boolean: A value that can be either true or false, such as true or false.
 # - Array: A collection of values, such as (1 2 3) or ("apple" "banana" "cherry").
+#
+# Common mistakes when working with variables include:
+# - Forgetting to use the dollar sign ($) when accessing the value of a variable.
+# - Using spaces around the equal sign when assigning a value to a variable.
+# To avoid these mistakes, it's important to always double-check your syntax and make sure that you are using the correct variable names and values.
