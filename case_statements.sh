@@ -41,4 +41,3 @@ esac
 # 2. Not including a default case (using "*") to handle an unintended input
 # 3. Not using 'esac' to end the case statement
 # 4. Using incorrect syntax for the case statement ( missing parentheses or using the wrong variable)
-
