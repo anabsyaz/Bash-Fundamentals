@@ -25,3 +25,11 @@ if [ -e "$filename" ]; then
 else
     echo "The file does not exist."
 fi
+
+# Finally, we can use conditionals to check for user input.
+read -p "Do you want to continue? (yes/no): " answer
+if [ "$answer" == "yes" ]; then
+    echo "You chose to continue."
+else
+    echo "You chose not to continue."
+fi
