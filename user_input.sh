@@ -5,3 +5,12 @@
 echo "Please enter your name:"
 read name
 echo "Hello, $name! Welcome to the world of bash scripting."
+
+# Ways to read input:
+# 1. Using "read" command: This is the most common way to read input after an echo statement prompting the user.
+# 2. Using read -p: This allows you to prompt the user for input in a single line without needing a separate echo statement.
+read -p "Please enter your age: " age
+echo "You are $age years old."
+
+# Common issues people have with reading input:
+# 1. Not prompting the user for input, which can lead to confusion.
