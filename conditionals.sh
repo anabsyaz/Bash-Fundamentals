@@ -33,3 +33,9 @@ if [ "$answer" == "yes" ]; then
 else
     echo "You chose not to continue."
 fi
+
+# Common mistakes to avoid:
+# 1. Forgetting to use square brackets [ ] for conditionals.
+# 2. Not quoting variables, which can lead to issues with spaces in strings.
+# 3. Using the wrong comparison operators ( using == for numbers instead of -gt, -lt, -eq).
+# 4. Not using elif for multiple conditions, which can make the code harder to read and maintain.
