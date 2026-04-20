@@ -11,3 +11,17 @@ elif [ $number -lt 0 ]; then
 else
     echo "The number is zero."
 fi
+# We can also use conditionals to check for string values.
+read -p "Enter a string: " string
+if [ "$string" == "hello" ]; then
+    echo "You entered hello."
+else
+    echo "You entered something other than hello."
+fi
+# Additionally, we can use conditionals to check for file existence.
+read -p "Enter a filename: " filename
+if [ -e "$filename" ]; then
+    echo "The file exists."
+else
+    echo "The file does not exist."
+fi
