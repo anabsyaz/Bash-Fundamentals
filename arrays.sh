@@ -16,3 +16,5 @@ games+=("CS2")
 
 # You can update an index directly
 games[1]="R6 Siege"
+# To get the length of the array, use ${#array_name[@]}
+echo "I have ${#games[@]} games in my array." # Output: 5
