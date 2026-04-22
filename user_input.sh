@@ -14,3 +14,6 @@ echo "You are $age years old."
 
 # Common issues people have with reading input:
 # 1. Not prompting the user for input, which can lead to confusion.
+# 2. Not using the "read" command correctly (e.g., forgetting to specify a variable to store the input).
+# 3. Not handling input validation (e.g., expecting a number but the user enters a string).
+# 4. Not quoting variables when using them, which can lead to issues if the input contains spaces or special characters. Always use quotes around variables when using them in echo or other commands.
