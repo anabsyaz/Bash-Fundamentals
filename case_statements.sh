@@ -3,8 +3,7 @@
 # This script demonstrates the use of case statements in bash.
 # Read a number from the user and print the corresponding day of the week.
 
-echo "Enter a number (1-7) to get the corresponding day of the week:"
-read -r day_number
+read -p "Enter a number (1-7) to get the corresponding day of the week: " day_number
 
 case $day_number in
   1)
