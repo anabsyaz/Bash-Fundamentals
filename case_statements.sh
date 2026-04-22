@@ -4,7 +4,7 @@
 # Read a number from the user and print the corresponding day of the week.
 
 echo "Enter a number (1-7) to get the corresponding day of the week:"
-read day_number
+read -r day_number
 
 case $day_number in
   1)
