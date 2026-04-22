@@ -39,7 +39,7 @@ fi
 # Output: a is less than b
 # Using [] for array indexing 
 my_array=(apple banana cherry)
-echo ${my_array[1]}
+echo "${my_array[1]}"
 # Output: banana
 
 # Common errors people make with brackets
