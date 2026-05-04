@@ -10,3 +10,9 @@ greet() {
 # Calling the function with an argument
 greet "Alice" # Output: Hello, Alice!
 # What this does is it runs the code inside the function we made earlier.
+
+# Common mistakes to avoid:
+# 1. Forgetting to call the function after defining it.
+# 2. Not passing the required parameters when calling the function.
+# 3. Using the wrong syntax for function definition (e.g., missing parentheses or curly braces).
+# 4. Not using the correct variable names inside the function, which can lead to unexpected behavior.
