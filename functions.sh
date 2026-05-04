@@ -18,7 +18,7 @@ greet "Alice" # Output: Hello, Alice!
 # 3. Using the wrong syntax for function definition (e.g., missing parentheses or curly braces).
 # 4. Not using the correct variable names inside the function, which can lead to unexpected behavior.
 
-# How to trobleshoot the common mistakes:
+# How to troubleshoot the common mistakes:
 # 1. If the function is not called, make sure to include a call to the function after its definition.
 # 2. If parameters are missing, check the function call to ensure all required arguments are provided.
 # 3. If there is a syntax error, review the function definition to ensure it follows the correct format (function name followed by parentheses and curly braces).
