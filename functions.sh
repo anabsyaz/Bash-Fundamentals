@@ -7,3 +7,6 @@
 greet() {
     echo "Hello, $1!" # $1 is the first argument passed to the function
 }
+# Calling the function with an argument
+greet "Alice" # Output: Hello, Alice!
+# What this does is it runs the code inside the function we made earlier.
