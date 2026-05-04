@@ -8,3 +8,6 @@
 # > : Redirects standard output to a file, overwriting the file if it already exists
 # >> : Redirects standard output to a file, appending to the file if it already exists
 # < : Redirects standard input from a file
+
+# Example of output redirection:
+echo "This is some output" > output.txt # This will create or overwrite output.txt with
