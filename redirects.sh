@@ -12,5 +12,8 @@
 # Example of output redirection:
 echo "This is the new output" > output.txt # This will create or overwrite output.txt with the text "This is the new output"
 
-# Example of appending output:
-echo "This is additional output" >> output.txt # This will append "This is additional output" to output.txt
+# Common mistakes to avoid:
+# 1. Using the wrong redirection operator (e.g., using > when you meant to append with >>).
+# 2. Forgetting to specify a file for redirection, which can lead to errors or unexpected behavior.
+# 3. Not having the necessary permissions to write to the file, which can cause the redirection to fail.
+# 4. Overwriting important files by using > without realizing it.
