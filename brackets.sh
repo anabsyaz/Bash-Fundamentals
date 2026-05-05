@@ -46,3 +46,8 @@ echo "${my_array[1]}"
 # 1. Forgetting to close brackets
 # 2. Using brackets in the wrong context (e.g., using () instead of []) 
 # 3. Not leaving spaces around brackets in test expressions
+
+# How to troubleshoot the common mistakes
+# 1. If you encounter a syntax error, check to ensure all brackets are properly closed.
+# 2. Review the context in which you are using brackets to ensure you are using the correct type for your intended purpose.
+# 3. If you get an error about unexpected tokens, check to ensure there are spaces around the brackets in your test expressions.
