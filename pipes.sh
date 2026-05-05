@@ -15,3 +15,9 @@ ls | wc -l
 # 2. Using the wrong commands in the pipeline, which can lead to unwanted outputs or errors.
 # 3. Not understanding the order of commands in the pipeline, which can lead to confusion about how data is being processed and what the final output will be.
 # 4. Not using quotes around commands or arguments that contain spaces, which can lead to unwanted behavior or errors.
+
+# How to troubleshoot the common mistakes:
+# 1. If you encounter an error about missing commands or unexpected tokens, check to ensure that you have included the pipe operator (|) between your commands.
+# 2. If you get unexpected output, review the commands you are using in your pipeline to ensure they are appropriate for the task you are trying to accomplish.
+# 3. If you are confused about the order of commands in your pipeline, try breaking down the pipeline into individual commands and running them separately to understand how data is being processed at each step.
+# 4. If you encounter issues with commands or arguments that contain spaces, make sure to use quotes around those commands or arguments to ensure they are treated as a single unit and not as separate arguments ("my command with spaces" instead of my command with spaces).
