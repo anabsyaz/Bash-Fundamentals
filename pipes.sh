@@ -9,3 +9,9 @@
 ls | wc -l
 # What this does: The ls command lists all files in the current directory, and the output is then passed to the wc -l command, which counts the number of lines (in this case, the number of files) and outputs that number.
 # This will output the number of files in the current directory.
+
+# Common mistakes to avoid:
+# 1. Forgetting to include the pipe operator between commands, which can lead to errors or unwanted results.
+# 2. Using the wrong commands in the pipeline, which can lead to unwanted outputs or errors.
+# 3. Not understanding the order of commands in the pipeline, which can lead to confusion about how data is being processed and what the final output will be.
+# 4. Not using quotes around commands or arguments that contain spaces, which can lead to unwanted behavior or errors.
