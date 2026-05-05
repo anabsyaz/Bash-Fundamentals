@@ -10,4 +10,7 @@
 # < : Redirects standard input from a file
 
 # Example of output redirection:
-echo "This is some output" > output.txt # This will create or overwrite output.txt with
+echo "This is the new output" > output.txt # This will create or overwrite output.txt with the text "This is the new output"
+
+# Example of appending output:
+echo "This is additional output" >> output.txt # This will append "This is additional output" to output.txt
