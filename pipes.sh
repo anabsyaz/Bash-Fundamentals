@@ -6,9 +6,9 @@
 
 # Example of using pipes:
 # List all files in the current directory and then count the number of files using wc -l
-ls | wc -l
-# What this does: The ls command lists all files in the current directory, and the output is then passed to the wc -l command, which counts the number of lines (in this case, the number of files) and outputs that number.
-# This will output the number of files in the current directory.
+find . -maxdepth 1 -type f | wc -l
+# What this does: The find command lists all files in the current directory and subdirectories, and the output is then passed to the wc -l command, which counts the number of lines (in this case, the number of files) and outputs that number.
+# This will output the number of files in the current directory and its subdirectories.
 
 # Common mistakes to avoid:
 # 1. Forgetting to include the pipe operator between commands, which can lead to errors or unwanted results.
