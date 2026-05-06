@@ -25,3 +25,9 @@ for file in /path/to/directory/*; do # The * means to include all files in the s
     echo "File: $file"
 done
 # This will print the name of each file in the specified directory.
+
+# Common mistakes to avoid:
+# 1. Forgetting to include the do and done keywords, which are required to define the block of code to be executed for each item in the loop.
+# 2. Not using the correct syntax for the list of items to iterate over (forgetting to separate items with spaces).
+# 3. Using the wrong variable name inside the loop, which can lead to it being undefined.
+# 4. Not properly handling spaces in file names when iterating over directory contents.
