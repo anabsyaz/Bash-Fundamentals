@@ -37,3 +37,4 @@ done
 # 2. If the loop is not iterating over the expected items, check the syntax of the list of items to ensure they are properly separated by spaces.
 # 3. If you encounter an undefined variable error, check the variable name used inside the loop to ensure it matches the variable defined in the for statement.
 # 4. If you have issues with spaces in file names, consider using quotes around the variable ("$file") to ensure it is treated as a single item.
+

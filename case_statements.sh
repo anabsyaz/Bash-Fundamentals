@@ -38,5 +38,5 @@ esac
 # Common mistakes when using case statements:
 # 1. Forgetting to include the ";;" at the end of each case block
 # 2. Not including a default case (using "*") to handle an unintended input
-# 3. Not using 'esac' to end the case statement
+# 3. Not using "esac" to end the case statement
 # 4. Using incorrect syntax for the case statement ( missing parentheses or using the wrong variable)
