@@ -19,3 +19,9 @@ for i in {1..5}; do
     echo "Number: $i"
 done
 # This will produce the same output as the previous example.
+
+# Additionally, we can use a for loop to iterate over the contents of a directory
+for file in /path/to/directory/*; do # The * means to include all files in the specified directory.
+    echo "File: $file"
+done
+# This will print the name of each file in the specified directory.
