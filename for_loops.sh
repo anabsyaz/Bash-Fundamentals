@@ -31,3 +31,9 @@ done
 # 2. Not using the correct syntax for the list of items to iterate over (forgetting to separate items with spaces).
 # 3. Using the wrong variable name inside the loop, which can lead to it being undefined.
 # 4. Not properly handling spaces in file names when iterating over directory contents.
+
+# How to troubleshoot the common mistakes:
+# 1. If you forget to include do and done, you will get a syntax error. Make sure to include these keywords to define the loop block.
+# 2. If the loop is not iterating over the expected items, check the syntax of the list of items to ensure they are properly separated by spaces.
+# 3. If you encounter an undefined variable error, check the variable name used inside the loop to ensure it matches the variable defined in the for statement.
+# 4. If you have issues with spaces in file names, consider using quotes around the variable ("$file") to ensure it is treated as a single item.
