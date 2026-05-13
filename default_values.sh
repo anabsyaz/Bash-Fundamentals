@@ -22,3 +22,8 @@ greet() {
     local greeting=${1:-"Hello"}
     echo "$greeting, $name!"
 }
+
+# Common issues with default values:
+# 1. If you forget to use the correct syntax for default values, it may not work as expected.
+# 2. If you set a variable to an empty string, it will be considered as set, and the default value will not be used.
+# 3. If you want to use a default value only when the variable is unset (not set at all), you can
