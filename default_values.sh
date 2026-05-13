@@ -16,3 +16,9 @@ name=${name:-"John Doe"}
 echo "Name: $name"
 # Since 'name' is already set to "Alice", it will output:
 # Name: Alice
+
+# Example of using default values in a function
+greet() {
+    local greeting=${1:-"Hello"}
+    echo "$greeting, $name!"
+}
