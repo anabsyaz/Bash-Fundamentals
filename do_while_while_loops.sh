@@ -14,3 +14,15 @@ done
 # Counter: 1
 # Counter: 2
 # and so on
+
+# Example of a do-while loop that counts from 1 to 5
+counter=1
+while true; do
+    echo "Counter: $counter"
+    ((counter++)) # Increment the counter
+    if [ $counter -gt 5 ]; then
+        break # Exit the loop if the counter exceeds 5
+    fi
+done
+# This will produce the same output as the previous example.
+
