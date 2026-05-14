@@ -39,3 +39,9 @@ fi
 # 2. Not quoting variables, which can lead to issues with spaces in strings.
 # 3. Using the wrong comparison operators ( using == for numbers instead of -gt, -lt, -eq).
 # 4. Not using elif for multiple conditions, which can make the code harder to read and maintain.
+
+# Troubleshooting tips:
+# 1. Check for syntax errors in your conditionals (missing brackets, incorrect operators).
+# 2. Make sure to quote variables when comparing strings to avoid issues with spaces.
+# 3. Use echo statements to debug and see the values of variables at different points in your script.
+# 4. Test your conditionals with different inputs to ensure they work as expected.
