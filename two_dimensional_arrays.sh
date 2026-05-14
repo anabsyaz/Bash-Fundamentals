@@ -9,4 +9,4 @@
 # Each element of the main array can be another array, allowing us to create a grid-like structure.
 # For example, we can create a 2D array to represent a simple table of data
 # where each row is an array of values.
-
+# They are useful for storing and manipulating data that has a graphical format, such as a list of students and their grades, or a grid of coordinates.
